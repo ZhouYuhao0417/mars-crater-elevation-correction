@@ -1,0 +1,16 @@
+{
+  "sample_spacing_km": 0.1,
+  "sample_count": 246,
+  "user_rim_crossing_distance_from_start_km": 4.1453022463431255,
+  "user_rim_crossing_lon_lat": [
+    76.04045720250522,
+    18.106544885177453
+  ],
+  "ctx_valid_samples": 118,
+  "ctx_valid_fraction": 0.4796747967479675,
+  "ctx_coverage_downstream_from_rim_km": [
+    8.454697753656877,
+    20.350522078528464
+  ],
+  "limitation": "The available CTX DTM begins downstream of the user-mapped rim crossing; it cannot resolve the breach crest itself."
+}

@@ -1,0 +1,14 @@
+{
+  "outflow_length_km": 24.486426921630073,
+  "start_inside_user_rim": true,
+  "end_inside_user_rim": false,
+  "rim_intersection_count": 1,
+  "rim_intersections": [
+    {
+      "longitude_e_deg": 76.04045720250522,
+      "latitude_n_deg": 18.106544885177453,
+      "distance_along_outflow_km": 4.1453022463431255
+    }
+  ],
+  "note": "Derived from the closed user-traced rim and user-traced outflow axis."
+}

@@ -1,0 +1,71 @@
+{
+  "type": "FeatureCollection",
+  "name": "JMARS_Profile2_outflow_axis",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "suspected_outflow_axis",
+        "source": "JMARS_Profile2_outflow_axis_points",
+        "status": "user-traced provisional geometry",
+        "longitude": "degrees east",
+        "latitude": "planetocentric north",
+        "vertex_count": 12,
+        "length_km": 24.496
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.968,
+            18.119
+          ],
+          [
+            76.029,
+            18.109
+          ],
+          [
+            76.057,
+            18.103
+          ],
+          [
+            76.086,
+            18.175
+          ],
+          [
+            76.11,
+            18.208
+          ],
+          [
+            76.138,
+            18.201
+          ],
+          [
+            76.154,
+            18.215
+          ],
+          [
+            76.181,
+            18.201
+          ],
+          [
+            76.209,
+            18.205
+          ],
+          [
+            76.233,
+            18.187
+          ],
+          [
+            76.263,
+            18.172
+          ],
+          [
+            76.308,
+            18.184
+          ]
+        ]
+      }
+    }
+  ]
+}

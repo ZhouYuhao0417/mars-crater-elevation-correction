@@ -1,0 +1,13 @@
+Points for Profile 2
+Point1: [18.119°N, 75.968°E][start point]
+Point2: [18.109°N, 76.029°E]
+Point3: [18.103°N, 76.057°E]
+Point4: [18.175°N, 76.086°E]
+Point5: [18.208°N, 76.11°E]
+Point6: [18.201°N, 76.138°E]
+Point7: [18.215°N, 76.154°E]
+Point8: [18.201°N, 76.181°E]
+Point9: [18.205°N, 76.209°E]
+Point10: [18.187°N, 76.233°E]
+Point11: [18.172°N, 76.263°E]
+Point12: [18.184°N, 76.308°E][end point]

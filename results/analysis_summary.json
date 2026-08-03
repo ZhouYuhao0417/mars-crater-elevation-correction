@@ -1,0 +1,65 @@
+{
+  "method": "Robust planar regional-trend removal using three external-reference sensitivity masks around the user-traced irregular rim.",
+  "rim_perimeter_km": 114.28762125529452,
+  "rim_sampling_km": 0.25,
+  "outlet_lon_e_deg": 76.04045720250522,
+  "outlet_lat_n_deg": 18.106544885177453,
+  "outflow_length_km": 24.486426921630073,
+  "rim_intersection_count": 1,
+  "outlet_residual_range_m": [
+    -95.52329213156918,
+    -29.678728694297888
+  ],
+  "outlet_percentile_range": [
+    5.458515283842795,
+    8.73362445414847
+  ],
+  "ctx_coverage_from_rim_km": [
+    8.454698,
+    20.350522
+  ],
+  "ctx_observed_slope_m_per_km": -35.31221725714813,
+  "ctx_slope_standard_error_m_per_km": 0.771246457780198,
+  "interpretation_guardrail": "Geometry and corrected topography may test consistency with a breach, but the present CTX DTM does not cover the rim crossing and therefore cannot resolve a breach crest or prove a dam-breach origin.",
+  "models": [
+    {
+      "model": "A: 3–15 km annulus",
+      "reference_points": 8111,
+      "robust_fit_rmse_m": 313.0877729609357,
+      "intercept_m": -808.1402844110821,
+      "east_gradient_m_per_km": -15.473945617068111,
+      "north_gradient_m_per_km": 5.605156210746124,
+      "outlet_residual_m": -95.52329213156918,
+      "rim_median_residual_m": 232.59376192970893,
+      "rim_min_residual_m": -158.32344580831182,
+      "rim_max_residual_m": 964.4203737389923,
+      "outlet_low_tail_percentile": 6.550218340611353
+    },
+    {
+      "model": "B: 3–20 km; 5 km corridor excluded",
+      "reference_points": 10254,
+      "robust_fit_rmse_m": 301.1701134394031,
+      "intercept_m": -843.0240326813009,
+      "east_gradient_m_per_km": -16.894378070792115,
+      "north_gradient_m_per_km": 6.485112379450319,
+      "outlet_residual_m": -29.678728694297888,
+      "rim_median_residual_m": 259.28757791197626,
+      "rim_min_residual_m": -93.60099709821611,
+      "rim_max_residual_m": 979.598146386043,
+      "outlet_low_tail_percentile": 8.73362445414847
+    },
+    {
+      "model": "C: 5–20 km; 8 km corridor excluded",
+      "reference_points": 8464,
+      "robust_fit_rmse_m": 284.45793601503425,
+      "intercept_m": -868.0463465979888,
+      "east_gradient_m_per_km": -15.234201466096614,
+      "north_gradient_m_per_km": 6.569730871178334,
+      "outlet_residual_m": -29.84157734494852,
+      "rim_median_residual_m": 285.4076460092534,
+      "rim_min_residual_m": -96.63134748915127,
+      "rim_max_residual_m": 1031.456843975394,
+      "outlet_low_tail_percentile": 5.458515283842795
+    }
+  ]
+}
