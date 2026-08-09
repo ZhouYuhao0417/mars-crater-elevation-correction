@@ -1,0 +1,8 @@
+	--> Setting number of processing threads to: 4
+	Found input nodata value for DEM: -32767
+Max difference:       162.402 meters
+Min difference:       -501.057 meters
+Mean difference:      28.4886 meters
+StdDev of difference: 15.0384 meters
+Median difference:    27.9154 meters
+Writing difference file: aligned/P05_002809_1975_XI_17N283W__P13_006000_1974_XI_17N283W-QuadAligned_FINAL_geodiff-diff.csv

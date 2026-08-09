@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.python_packages/
+work_cache/
+rendered/
+*.tif
+*.npz
+*.bin
+!data/mola/MOLA_MEGT44N000HB_rows_3200_partial.bin
+
+.vercel
