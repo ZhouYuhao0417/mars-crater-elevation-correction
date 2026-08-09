@@ -1,10 +1,12 @@
 from pathlib import Path
+import shutil
 
 
 ROOT = Path(__file__).resolve().parents[1]
 FRAGMENT = ROOT / "interactive" / "crater-corrected-3d-paper.html"
 INDEX = ROOT / "index.html"
 STANDALONE = ROOT / "interactive" / "crater-corrected-3d.html"
+DEPLOY = ROOT / "deploy"
 
 
 fragment = FRAGMENT.read_text(encoding="utf-8")
@@ -206,5 +208,12 @@ page = f"""<!doctype html>
 
 INDEX.write_text(page, encoding="utf-8")
 STANDALONE.write_text(page, encoding="utf-8")
+DEPLOY.mkdir(parents=True, exist_ok=True)
+(DEPLOY / "vendor").mkdir(parents=True, exist_ok=True)
+(DEPLOY / ".gitignore").write_text(".vercel\n", encoding="utf-8")
+(DEPLOY / "index.html").write_text(page, encoding="utf-8")
+(DEPLOY / "vercel.json").write_text((ROOT / "vercel.json").read_text(encoding="utf-8"), encoding="utf-8")
+shutil.copy2(ROOT / "vendor" / "plotly.min.js", DEPLOY / "vendor" / "plotly.min.js")
 print(INDEX, INDEX.stat().st_size)
 print(STANDALONE, STANDALONE.stat().st_size)
+print(DEPLOY / "index.html", (DEPLOY / "index.html").stat().st_size)

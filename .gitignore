@@ -9,3 +9,5 @@ rendered/
 *.npz
 *.bin
 !data/mola/MOLA_MEGT44N000HB_rows_3200_partial.bin
+
+.vercel
