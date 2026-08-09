@@ -28,6 +28,7 @@ dam-breach origin.
 - `results/` - sensitivity tables, figures, and machine-readable summary.
 - `interactive/` - standalone and Codex-fragment interactive 3D terrain viewers.
 - `vendor/` - pinned browser runtime for the 3D viewer.
+- `deploy/vercel-import.html` - self-contained HTML bundle for Vercel import.
 
 ## Reproduce
 
@@ -51,7 +52,8 @@ builder writes `index.html` and `interactive/crater-corrected-3d.html`.
 Deploy the repository root as a static site. There is no build command and no
 output directory; the production entry point is `/`. The Plotly runtime is
 vendored in `vendor/plotly.min.js` so the viewer does not depend on a third-party
-CDN at runtime.
+CDN at runtime. `deploy/vercel-import.html` is a fully self-contained import
+bundle for Vercel tools that require all scripts to be inlined.
 
 ## Data provenance and limits
 
